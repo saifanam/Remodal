@@ -15,7 +15,7 @@
     var pluginName = "remodal",
         defaults = {
             hashTracking: true,
-            closeOnConfirm: true,
+            closeOnConfirm: false,
             closeOnCancel: true
         };
 
