@@ -152,7 +152,7 @@ body.remodal_active .remodal {
 .remodal-close {
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 5px;
 
     width: 28px;
     height: 28px;
@@ -203,8 +203,8 @@ body.remodal_active .remodal {
     cursor: pointer;
     text-decoration: none;
     text-align: center;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
     background-clip: padding-box;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -227,6 +227,7 @@ body.remodal_active .remodal {
     border: 2px solid #c0392b;
     background: #f4f4f4;
     color: #c0392b;
+    margin-right: 9px;
 }
 
 .remodal-cancel:hover, .remodal-cancel:active {
@@ -243,7 +244,7 @@ body.remodal_active .remodal {
         margin: 20px auto;
         min-height: 0;
 
-        -webkit-border-radius: 6px;
-        border-radius: 6px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
     }
 }
